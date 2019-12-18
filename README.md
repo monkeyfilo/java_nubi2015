@@ -13,6 +13,25 @@ Pre-requisite of attack:
 3. You know the URL which has CORS misconfiguration and will give you sensitive information like tokens etc 
 
 
+Ways to exploit CORS:
+
+POORLY IMPLEMENTED, BEST CASE FOR ATTACK:
+Access-Control-Allow-Origin: https://attacker.com
+Access-Control-Allow-Credentials: true
+
+POORLY IMPLEMENTED, EXPLOITABLE:
+Access-Control-Allow-Origin: null
+Access-Control-Allow-Credentials: true
+
+BAD IMPLEMENTATION BUT NOT EXPLOITABLE:
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+or just
+
+Access-Control-Allow-Origin: *
+
+
 
 ~~~~~~~~
 HTTP/1.1 200 OK
