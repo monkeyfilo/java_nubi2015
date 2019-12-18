@@ -1,7 +1,7 @@
 To Kawili:
 =================================================
 
-Cross Origin Resource Sharing:
+Cross Origin Resource Sharing: (Exploits and Writeups)
 
 *Attack is initiated by the attacker
 *No need to send or social engineer victim 
